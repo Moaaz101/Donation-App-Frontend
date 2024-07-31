@@ -1,0 +1,71 @@
+/* styles.css */
+.custom-card {
+    background-color: #e1e6ea;
+    width: auto;
+  }
+
+  .custom-text{
+    color: #9bcefa;
+    padding-bottom: 5px;
+    font-weight : 500;
+    font-size:18px;
+}
+
+  .custom-card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Center the cards horizontally */
+  }
+
+  .custom-label {
+    font-family: 'Arial', sans-serif; /* Specify desired font family */
+    font-size: 15px; /* Specify desired font size */
+  }
+  .custom-label2 {
+    font-family: 'Arial', sans-serif; /* Specify desired font family */
+    font-size: 30px; /* Specify desired font size */
+  }
+
+  .custom-btn {
+    background-color: rgb(255, 255, 255); /* Set background color */
+    color: #ffffff; /* Set text color */
+    /* Add any additional styles as needed */
+  }
+
+  /* Custom CSS for checkbox */
+.btn-check:checked + .btn-outline-primary {
+  background-color: #0E46A3;
+  border-color: #007bff;
+  width: 125px; /* Adjust as needed */
+
+}
+/* Adjust label width */
+.btn-check + .btn {
+  width: calc(125px); /* Adjust width to accommodate checkbox */
+}
+.input-field::placeholder {
+  font-size: 0.9em; /* Adjust the font size as needed */
+}
+.custom-button {
+  background-color: #1e2c38;
+}
+
+.container {
+  width: 100%; /* Ensure the container occupies the full width */
+  max-width: 540px;
+    margin: 0 auto; /* Center the container horizontally */
+}
+
+.card {
+  padding: 2em;
+}
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+  justify-content: center;
+  background-color: #1e2c38;
+
+}

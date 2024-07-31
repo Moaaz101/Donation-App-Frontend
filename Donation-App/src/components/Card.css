@@ -1,0 +1,17 @@
+.card {
+  height: auto; /* Allow the height to adjust based on content */
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px auto; /* Center the card horizontally */
+  cursor: pointer;
+  text-align: center; /* Center the text content */
+}
+
+.card img {
+  display: block; /* Ensure the image behaves like a block element */
+  margin: 0 auto; /* Center the image horizontally */
+  width: 40%; /* Set the desired width for the image */
+  height: auto; /* Allow the height to adjust based on the width */
+  border-radius: 5px;
+}

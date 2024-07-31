@@ -1,0 +1,73 @@
+/* HomeStyle.module.css */
+
+.dashboard-container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.dashboard-content {
+  display: flex;
+  flex-grow: 1;
+}
+
+.sidebar {
+  width: 200px;
+  background-color: #767676;
+  padding: 20px;
+}
+
+.main-content {
+  flex-grow: 1;
+  padding: 20px;
+}
+
+.sidebar ul li a {
+  color: #ffffff;
+}
+
+.sidebar ul li a:hover {
+  color: #0a58ca;
+}
+
+body {
+  margin: 0;
+  place-items: center;
+}
+
+/* Adjustments to make items span the entire screen */
+.dashboard-container {
+  width: 100%;
+  max-width: 100%;
+}
+
+.dashboard-content {
+  width: 100%;
+}
+
+#root {
+  margin: 0 ;
+  padding: 0;
+  text-align: center;
+}
+.navbar {
+  padding: 1rem; /* Example: Set padding to 1rem */
+  background-color: #6f6f6f !important;
+  --bs-navbar-color: rgb(255 255 255);
+  --bs-navbar-hover-color: #0a58ca;
+  --bs-navbar-brand-color: rgb(255 255 255);
+  /* Add more CSS properties and values as needed */
+}
+
+/* Custom CSS */
+.btn-outline-custom {
+  color: #fff; /* Text color */
+  background-color: #28a745; /* Background color */
+  border-color: #28a745; /* Border color */
+}
+
+.btn-outline-custom:hover {
+  color: #fff; /* Change text color on hover */
+  background-color: #218838; /* Change background color on hover */
+  border-color: #1e7e34; /* Change border color on hover */
+}
